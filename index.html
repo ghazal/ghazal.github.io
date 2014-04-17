@@ -7,6 +7,7 @@
     <meta name="description" content="Ghazal.github.io : " />
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <link href="stylesheets/github.css" rel="stylesheet" type="text/css" media="screen">
 
     <title>Ghazal.github.io</title>
   </head>
@@ -32,10 +33,22 @@
 
 <p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
+<pre>
+	<code data-language="css">
+  /* So 100% means 100% */  
+*,*:before,*:after{
+-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+box-sizing:border-box;}  
+
+article, aside, figure, footer, header, hgroup, 
+  menu, nav, section { display: block; }
+
+body {padding: 1em;font: 62.5% "Verdana",sans-serif;}
+a{ text-decoration: none;}
+li{display:inherit;}
+</code>
+</pre>
 
 <p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
 
@@ -68,7 +81,8 @@ $ git checkout gh-pages
       </footer>
     </div>
 
-    
+<script type="text/javascript" src="javascripts/rainbow.min.js"></script> 
+<script type="text/javascript" src="javascripts/css.js"></script>   
 
   </body>
 </html>
