@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+
+<meta charset="utf-8" />
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+<title>Démo</title>
+
+<!--[if IE]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<style>
+  /* So 100% means 100% */  
+*,*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}  
+  article, aside, figure, footer, header, hgroup, 
+  menu, nav, section { display: block; }
+body {padding: 1em;font: 62.5% "Verdana",sans-serif;}
+a{ text-decoration: none;}
+li{display:inherit;}
+/*mes css*/
+div#page {
+  width: auto;
+  text-align: center;
+  padding: 40px 20px;
+}
+img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+}
+</style>
+</head>
+<body>
+  <div id="page">
+        
+<img src="http://placekitten.com/2400/700" alt="">        
+</div>
+</body>
+</html>
