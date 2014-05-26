@@ -18,16 +18,6 @@ pre{background-color: #ecfffc; font: bold 0.8em/140% "Helvetica Neue", sans-seri
 margin:5px 30px;padding: 15px;white-space: pre-wrap;white-space: -moz-pre-wrap !important;white-space: -pre-wrap;
 word-wrap: break-word;overflow-x: auto;}
 
-h3, h4{color: #456123}
-h4~p {color: #f00;}
- h3+p {  color: #5670dd;  }/*is referred to as an adjacent selector. It will select only the element that is immediately preceded by the former element. In this case, only the first paragraph after each ul will have red text.*/
-div>h2 {color: #999ccc;}/*Nice color
-The difference between the standard X Y and X > Y is that the latter will only select direct children. For example, consider the following markup.*/
-
-/* position des classes/ID */
-.name {color:red;font-size: 0.8em;} /* the winner */
-.name {color:blue;}
-/* my CSS */
 
 .boxsizing{margin: 50px auto; width:50em;max-width:100%;font: normal normal 1.4em/120% "Helvetica Neue", sans-serif;border: 30px solid #cacaca; padding: 5px; 
 -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; 
