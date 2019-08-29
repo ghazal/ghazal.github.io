@@ -11,10 +11,6 @@ $(document).ready(function() {
     var lang = "fr";
     // Openweathermap.com API URL
     var apiUrl = "http://ghazal.github.io/todays.json";
-    
-    //   http://api.openweathermap.org/data/2.5/forecast/daily?id=524901&lang=fr
-       //var apiUrl =  "http://ghazal.github.io/todays.json"
-    /*  + "&lang=" + lang */
 
     // Getting weather information from openweathermap.org API
     $.getJSON(apiUrl, function(w) {
