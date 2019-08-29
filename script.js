@@ -10,9 +10,10 @@ $(document).ready(function() {
     var country = location.country;
     var lang = "fr";
     // Openweathermap.com API URL
-    var apiUrl = "https://api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon=" + lon + "&appid=" + apiId + "&lang=" + lang;
+    var apiUrl = "http://ghazal.github.io/todays.json";
     
     //   http://api.openweathermap.org/data/2.5/forecast/daily?id=524901&lang=fr
+       //var apiUrl =  "http://ghazal.github.io/todays.json"
     /*  + "&lang=" + lang */
 
     // Getting weather information from openweathermap.org API
