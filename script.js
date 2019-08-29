@@ -8,9 +8,9 @@ $(document).ready(function() {
     var lon = latLon[1];
     var cityName = location.city;
     var country = location.country;
-    //var lang = "fr";
+    var lang = "fr";
     // Openweathermap.com API URL
-    var apiUrl = "https://api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon=" + lon + "&appid=" + apiId;
+    var apiUrl = "https://api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon=" + lon + "&appid=" + apiId + "&lang=" + lang;
     
     //   http://api.openweathermap.org/data/2.5/forecast/daily?id=524901&lang=fr
     /*  + "&lang=" + lang */
