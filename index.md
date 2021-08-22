@@ -6,6 +6,17 @@ This automatic page generator is the easiest way to create beautiful pages for a
 	<p>Try hovering over this card!</p>
     </article>
 
+    article {
+    padding: 2rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    background: lightgray;
+    transition: 100ms;
+    }
+    article:hover {
+    background: var(--custom_color);
+    }
+    
 If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.
 
 ### Designer Templates
