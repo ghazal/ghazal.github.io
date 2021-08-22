@@ -3,7 +3,6 @@ description:
 google_analytics: 
 show_downloads: true
 theme: jekyll-theme-minimal
-<link rel="stylesheet" href="{{ root_url }}/css/main.css">
 
 gems:
   - jekyll-mentions
